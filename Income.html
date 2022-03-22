@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/Style.css">
+</head>
+<body>
+    <div class="MainCon">
+    <nav class="nav"> 
+       
+        <a href="/main.html" >Home</a>
+        <a href="/Income.html" class="NavTab">Incomes</a>
+        <a href="/Expenses.html">Expenses</a>
+        
+    
+
+    </nav>
+   
+    <main >
+        
+        <h1>Expenses Tracker</h1>
+        <div class="hori">
+        <div  class="inc" id="in">
+            <h2>Income</h2>
+        <form class="income">
+            <label for="Incomeway">Income Way:</label>
+            <br>
+            <input type="text" id="Incomeway">
+            <br>
+            <label for="IncomeAmont">Amount:</label>
+            <br>
+            <input type="number" id="IncomeAmount">
+            <br>
+            <button>Submit</button>
+        </form>
+    </div>
+    <div class="inc" id="inv">
+        <h2>Investment</h2>
+        <form class="income">
+            <label for="type">Investment Type:</label>
+            
+            <select name="type" id="type">
+                <option value="shares">Shares</option>
+                <option value="sip">SIP</option>
+                <option value="gold">Gold</option>
+                <option value="other">Other</option>
+            </select>
+            <br>
+            <label for="InvestAmont">Amount:</label>
+            <br>
+
+            <input type="number" id="InvestAmount">
+            <br>
+            <button>Submit</button>
+            
+        </form>
+    </div>
+</div>
+    </main>
+
+</div>
+</body>
+</html>
